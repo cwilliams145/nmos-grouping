@@ -10,20 +10,22 @@
   - [Group](#group)
   - [Natural Group](#natural-group)
   - [Role](#role)
+  - [(Group) Scope](#scope-1)
 - [Tagging Natural Groups (normative)](#tagging-natural-groups-normative)
 
 [//]: # (ToC goes before this comment)
 
 ## Scope
 
-This Best Common Practice specifies how to indicate within NMOS APIs that NMOS Resources 
-form a Natural Group, and how to indicate the roles of each member of the Natural Group.
+This Best Common Practice specifies how to indicate within NMOS APIs that NMOS Resources
+contained within a Node or a Device form a Natural Group,
+and how to indicate the roles of each member of the Natural Group.
 
 "Natural Group" is explained below and defined formally in [Definitions](#natural-group).
 
 ## Introduction (informative)
 
-Often there is a requirement for NMOS client applications to work with Groups of related Resources 
+Often there is a requirement for NMOS client applications to work with Groups of related Resources
 used in NMOS specifications. For example, IS-05's bulk mode allows multiple connections to be make
 or broken at the same time; typically there will be some relationship between these connections,
 for example the Receivers are all in the same wall of multiviewers, or the Senders are all located
@@ -32,7 +34,7 @@ way of indicating any grouping relationship within the API calls.
 
 In many cases it is just necessary to provide a way of referring to a Group that is
 "formed naturally" by what a system does, and these are called "Natural Group".
-For example, a Node that corresponds to a camera might have a Natural Group called "Camera", 
+For example, a Node that corresponds to a camera might have a Natural Group called "Camera",
 and there are three Senders within this Natural Group, with Roles "Video", "Audio 1" and "Audio 2".
 
 In this Best Common Practice, Nodes add a `grouphint` tag to the JSON representation
@@ -69,6 +71,10 @@ A Group that represents the default relationship between Resources in a Node.
 ### Role
 
 An attribute of a Resource that identifies it within a Natural Group
+
+### (Group) Scope
+
+An attribute of a Group that limits its scope. This can be either Node or Device.
 
 ## Tagging Natural Groups (normative)
 
