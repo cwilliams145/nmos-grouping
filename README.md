@@ -1,12 +1,12 @@
-# [Work In Progress] AMWA NMOS API Security Recommendations
+# [Work In Progress] AMWA NMOS Grouping Recommendations
 
-This repository will be used to document best practice and recommendations, as produced by AMWA's API Security group.  
-We are looking at confidentiality, identification, integrity, authentication
-and authorisation for [AMWA NMOS APIs](https://amwa-tv.github.io/nmos).
+This repository will be used to document best practice and recommendations 
+for how to indicate and handle Groups of Resources in [AMWA NMOS APIs](https://amwa-tv.github.io/nmos).
 
-A proposed approach is bease on TLS 1.2, X.509 PKI, OAuth 2.0 and JSON Web Tokens.
+Currently this addresses "Natural Groups",
+i.e. those created by the default operation of a Node/Device,
+and not user- or automation-defined Groups.
 
 ## Documentation
 
-- [Initial Security Proposal](security-proposal.md)
-- [Best Practice for use of TLS and PKI](best-practice-tls-pki.md)
+- [Best Practice for Natural Grouping](best-practice-natural-grouping.md)
