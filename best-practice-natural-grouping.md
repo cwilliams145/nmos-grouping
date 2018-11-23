@@ -1,13 +1,16 @@
-# [Work In Progress] AMWA Best Current Practice for Grouping of NMOS Resources
+# [Work In Progress] AMWA Best Current Practice for Natural Grouping of NMOS Resources
 
 [//]: # (ToC goes after this comment. Generate with gen-toc.sh <this-file> and paste in.)
 
 - [Scope](#scope)
+- [Introduction (informative)](#introduction-informative)
 - [Use of Normative Language](#use-of-normative-language)
 - [Normative References](#normative-references)
 - [Definitions](#definitions)
-- [Introduction (informative)](#introduction-informative)
-- [Heading](#heading)
+  - [Group](#group)
+  - [Natural Group](#natural-group)
+  - [Role](#role)
+- [Tagging Natural Groups (normative)](#tagging-natural-groups-normative)
 
 [//]: # (ToC goes before this comment)
 
@@ -66,6 +69,7 @@ A Group that represents the default relationship between Resources in a Node.
 ### Role
 
 An attribute of a Resource that identifies it within a Natural Group
+
 ## Tagging Natural Groups (normative)
 
 Node implementations following this Best Common Practice MUST use the `grouphint` tag as defined in the [NMOS Parameters Registers][NPR-TAGS-GROUPHINT] to indicate Natural Groups.
@@ -77,8 +81,7 @@ Node implementations SHALL NOT require API clients to use other mechanisms.
 [//]: ### (Normative)
 
 [NPR-TAGS-GROUPHINT]: https://amwa-tv.github.io/nmos-parameter-registers/tags/grouphint.html
-"Internet X.509 Public Key Infrastructure Certificate and
-Certificate Revocation List (CRL) Profile"
+"Tags Group Hints"
 
 [//]: ### (Informative)
 
