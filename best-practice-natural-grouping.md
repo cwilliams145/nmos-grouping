@@ -1,4 +1,4 @@
-# [Work In Progress] AMWA Best Current Practice for Natural Grouping of NMOS Resources
+# [Work In Progress] AMWA Best Current Practice for Natural Grouping of NMOS Resources (future BCP-002)
 
 [//]: # (ToC goes after this comment. Generate with gen-toc.sh <this-file> and paste in.)
 
