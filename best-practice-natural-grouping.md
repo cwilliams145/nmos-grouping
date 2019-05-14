@@ -1,4 +1,4 @@
-# [Work In Progress] AMWA Best Current Practice for Natural Grouping of NMOS Resources (future BCP-002-01)
+# AMWA BCP-002-01: Best Current Practice for Natural Grouping of NMOS Resources
 
 [//]: # (ToC goes after this comment. Generate with gen-toc.sh <this-file> and paste in.)
 
@@ -17,7 +17,7 @@
 
 ## Scope
 
-This Best Common Practice specifies how to indicate within NMOS APIs that NMOS Resources
+This Best Current Practice specifies how to indicate within NMOS APIs that NMOS Resources
 contained within a Node or a Device form a Natural Group,
 and how to indicate the roles of each member of the Natural Group.
 
@@ -29,7 +29,7 @@ Often there is a requirement for NMOS client applications to work with Groups of
 used in NMOS specifications. For example, IS-05's bulk mode allows multiple connections to be make
 or broken at the same time; typically there will be some relationship between these connections,
 for example the Receivers are all in the same wall of multiviewers, or the Senders are all located
-in a particular Studio. Prior to the creation of this Best Common Practice, there was no defined
+in a particular Studio. Prior to the creation of this Best Current Practice, there was no defined
 way of indicating any grouping relationship within the API calls.
 
 In many cases it is just necessary to provide a way of referring to a Group that is
@@ -37,7 +37,7 @@ In many cases it is just necessary to provide a way of referring to a Group that
 For example, a Node that corresponds to a camera might have a Natural Group called "Camera",
 and there are three Senders within this Natural Group, with Roles "Video", "Audio 1" and "Audio 2".
 
-In this Best Common Practice, Nodes add a `grouphint` tag to the JSON representation
+In this Best Current Practice, Nodes add a `grouphint` tag to the JSON representation
 of each member of a Natural Groups. The details are specified in the [NMOS Parameter Registers][NPR], specifically [here][NPR-TAGS-GROUPHINT].
 
 In some cases a group may be defined by a user or automation system rather than by the Node itself;
@@ -78,7 +78,7 @@ An attribute of a Group that limits its scope. This can be either Node or Device
 
 ## Tagging Natural Groups (normative)
 
-Node implementations following this Best Common Practice MUST use the `grouphint` tag as defined in the [NMOS Parameters Registers][NPR-TAGS-GROUPHINT] to indicate Natural Groups.
+Node implementations following this Best Current Practice MUST use the `grouphint` tag as defined in the [NMOS Parameters Registers][NPR-TAGS-GROUPHINT] to indicate Natural Groups.
 
 Node implementations SHALL NOT require API clients to use other mechanisms.
 
