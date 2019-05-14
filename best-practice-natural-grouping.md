@@ -49,7 +49,7 @@ The following diagram shows four more examples of Natural Groups:
 
 ## Use of Normative Language
 
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL, "NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119.
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119][RFC-2119].
 
 ## Normative References
 
@@ -85,6 +85,9 @@ Node implementations SHALL NOT require API clients to use other mechanisms.
 [//]: ## (References)
 
 [//]: ### (Normative)
+
+[RFC-2119]: https://tools.ietf.org/html/rfc2119
+"Key words for use in RFCs to Indicate Requirement Levels"
 
 [NPR-TAGS-GROUPHINT]: https://amwa-tv.github.io/nmos-parameter-registers/tags/grouphint.html
 "Tags Group Hints"
