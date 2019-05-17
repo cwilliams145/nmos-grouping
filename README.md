@@ -1,6 +1,6 @@
-# [Work In Progress] AMWA NMOS Grouping Recommendations
+# AMWA NMOS Grouping Recommendations
 
-This repository will be used to document best practice and recommendations.
+This repository is used to document best practice and recommendations,
 for how to indicate and handle Groups of Resources in [AMWA NMOS APIs](https://amwa-tv.github.io/nmos).
 
 Currently this addresses "Natural Groups",
@@ -9,4 +9,4 @@ and not user- or automation-defined Groups.
 
 ## Documentation
 
-- [Best Practice for Natural Grouping (future BCP-002-01)](best-practice-natural-grouping.md)
+- [AMWA BCP-002-01: Best Current Practice for Natural Grouping of NMOS Resources](best-practice-natural-grouping.md)
