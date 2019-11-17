@@ -23,7 +23,7 @@
 
 ### How does it work?
 
-- Nodes add a ``grouphint`` tag to the JSON representation of each member of a Natural Groups
+- [BCP-002-01](best-practice-natural-grouping.html) recommends Nodes add a ``grouphint`` tag to the JSON representation of each member of a Natural Group
 
 
 ---
