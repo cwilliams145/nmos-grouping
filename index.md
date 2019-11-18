@@ -29,5 +29,5 @@
 ---
 
 
-## Recommendation(s)
+## Recommendations and related documentation
 - [best-practice-natural-grouping](branches/master/best-practice-natural-grouping.md)
