@@ -2,4 +2,5 @@
 
 # {{ site.github.project_tagline }}
 
-- [best-practice-natural-grouping](best-practice-natural-grouping.md)
+  - [best-practice-natural-grouping](best-practice-natural-grouping.md)
+  - [README](README.md)
