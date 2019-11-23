@@ -30,5 +30,4 @@
 
 
 ## Recommendations and related documentation
-  - [best-practice-natural-grouping](branches/master/best-practice-natural-grouping.md)
-  - [README](branches/master/README.md)
+- [best-practice-natural-grouping](branches/master/best-practice-natural-grouping.md)
