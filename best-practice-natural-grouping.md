@@ -89,7 +89,7 @@ Node implementations SHALL NOT require API clients to use other mechanisms.
 [RFC-2119]: https://tools.ietf.org/html/rfc2119
 "Key words for use in RFCs to Indicate Requirement Levels"
 
-[NPR-TAGS-GROUPHINT]: https://amwa-tv.github.io/nmos-parameter-registers/tags/grouphint.html
+[NPR-TAGS-GROUPHINT]: https://amwa-tv.github.io/nmos-parameter-registers/branches/master/tags/grouphint.html
 "Tags Group Hints"
 
 [//]: ### (Informative)
