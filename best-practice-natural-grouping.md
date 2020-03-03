@@ -1,19 +1,7 @@
 # AMWA BCP-002-01: Best Current Practice for Natural Grouping of NMOS Resources
 
-[//]: # (ToC goes after this comment. Generate with gen-toc.sh <this-file> and paste in.)
-
-- [Scope](#scope)
-- [Introduction (informative)](#introduction-informative)
-- [Use of Normative Language](#use-of-normative-language)
-- [Normative References](#normative-references)
-- [Definitions](#definitions)
-  - [Group](#group)
-  - [Natural Group](#natural-group)
-  - [Role](#role)
-  - [(Group) Scope](#scope-1)
-- [Tagging Natural Groups (normative)](#tagging-natural-groups-normative)
-
-[//]: # (ToC goes before this comment)
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
 
 ## Scope
 
@@ -82,17 +70,12 @@ Node implementations following this Best Current Practice MUST use the `grouphin
 
 Node implementations SHALL NOT require API clients to use other mechanisms.
 
-[//]: ## (References)
-
-[//]: ### (Normative)
 
 [RFC-2119]: https://tools.ietf.org/html/rfc2119
 "Key words for use in RFCs to Indicate Requirement Levels"
 
 [NPR-TAGS-GROUPHINT]: https://amwa-tv.github.io/nmos-parameter-registers/branches/master/tags/grouphint.html
 "Tags Group Hints"
-
-[//]: ### (Informative)
 
 [NPR]: https://amwa-tv.github.io/nmos-parameter-registers
 "NMOS Parameter Registers"
