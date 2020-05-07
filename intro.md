@@ -10,4 +10,4 @@
 
 ### How does it work?
 
-- [BCP-002-01](best-practice-natural-grouping.html) recommends Nodes add a ``grouphint`` tag to the JSON representation of each member of a Natural Group
+- [BCP-002-01](branches/master/best-practice-natural-grouping.html) recommends Nodes add a ``grouphint`` tag to the JSON representation of each member of a Natural Group
