@@ -19,7 +19,7 @@
 
 ### Why does it matter?
 
-- Provides a consitent way of referring to groups of related Resources (e.g. video and audio Senders of a camera)
+- Provides a consistent way of referring to groups of related Resources (e.g. video and audio Senders of a camera)
 - This helps with interoperability and integration.
 
 ### How does it work?
