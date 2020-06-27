@@ -30,5 +30,5 @@
 ---
 
 
-## Recommendations and related documentation
+## Best Current Practice document(s)
 - [best-practice-natural-grouping](branches/master/best-practice-natural-grouping.md)
