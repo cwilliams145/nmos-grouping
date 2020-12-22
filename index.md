@@ -4,7 +4,7 @@
 
 | Repository | Default Branch | Lint (default) | Render (all) |
 | --- | --- | --- | --- |
-| [nmos-grouping](https://github.com/AMWA-TV/nmos-grouping) | master | <a href="https://travis-ci.com/AMWA-TV/nmos-grouping?branch=master"><img src="https://travis-ci.com/AMWA-TV/nmos-grouping.svg?branch=master" width="100"/></a> | <a href="https://travis-ci.com/AMWA-TV/nmos-grouping?branch=gh-pages"><img src="https://travis-ci.com/AMWA-TV/nmos-grouping.svg?branch=gh-pages" width="100"/></a> |
+| [nmos-grouping](https://github.com/AMWA-TV/nmos-grouping) | master | [![Lint Status](https://github.com/AMWA-TV/nmos-grouping/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/nmos-grouping/actions?query=workflow%3ALint) | [![Render Status](https://github.com/AMWA-TV/nmos-grouping/workflows/Render/badge.svg)](https://github.com/AMWA-TV/nmos-grouping/actions?query=workflow%3ARender) |
 
 
 ---
